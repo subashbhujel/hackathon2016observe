@@ -19,14 +19,14 @@ function initialize() {
 
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 
-    var pathToCenter = new google.maps.Polyline({
-        path: pathCoordinates,
-        strokeColor: '#0000ff',
-        strokeOpacity: 1.0,
-        strokeWeight: 2
-    });
+    // var pathToCenter = new google.maps.Polyline({
+    //     path: pathCoordinates,
+    //     strokeColor: '#0000ff',
+    //     strokeOpacity: 1.0,
+    //     strokeWeight: 2
+    // });
 
-    pathToCenter.setMap(map);
+    // pathToCenter.setMap(map);
 
     /*var marker=new google.maps.Marker({
       position: myCenter,
