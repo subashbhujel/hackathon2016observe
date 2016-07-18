@@ -4,7 +4,8 @@
   "description": "Observe!",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/subashbhujel/hackathon2016observe/issues"
   },
-  "homepage": "https://github.com/subashbhujel/hackathon2016observe#readme"
+  "homepage": "https://github.com/subashbhujel/hackathon2016observe#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.1.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  }
 }
